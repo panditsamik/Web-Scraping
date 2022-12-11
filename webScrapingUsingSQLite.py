@@ -66,4 +66,4 @@ if __name__ == "__main__":
             if not row:
                 store(extracted)
                 send_email(f"Hey! New Event was found.\n{extracted}")
-        time.sleep(1)
+        time.sleep(60)
